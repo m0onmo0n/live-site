@@ -1,38 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Moon Moon's Hub</title>
+    <link rel="shortcut icon" type="image/jpg" href="Avatar_editv3.png">
+    <title>Moon Moon's hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="navigation.js" defer></script>
 </head>
+
 <body>
-    <div class="logo-container">
-        <img src="https://host.moonmoon.tech/u/o73AQR.png" alt="Logo" class="logo">
-        <h1>Moon Moon's Hub</h1>
-    </div>
-
-    <div class="background-container">
-        <div class="background-image"></div>
-    </div>
-
-    <div class="content">
-        <p>I am a 26-year-old Norwegian guy that occasionally streams, is a tech head, and hosts various things on my local server. Some of these you can check out here:</p>
-        <a href="https://lab.moonmoon.tech" class="my-projects-button">My Projects' dashboard</a>
-        <a href="https://pdf.moonmoon.tech" class="PDF-tools-button">PDF Tools</a>
-        <a href="https://tech.moonmoon.tech" class="IT-tools-button">IT Tools</a>
-    </div>
-
-    <footer>
-        <div class="social-buttons">
-            <p>Social links:</p>
-            <a href="https://twitter.com/M0onmo0nGaming" target="_blank">X</a>
-            <a href="https://www.twitch.tv/m0onmo0ngaming" target="_blank">Twitch</a>
-            <a href="https://github.com/moonmoon97" target="_blank">GitHub</a>
-            <a href="https://www.youtube.com/@M0onMo0n" target="_blank">YouTube</a>
+    <header class="primary-header flex">
+        <div>
+          <img src="MyLogo.png" alt="M^2" class="logo">
         </div>
-    </footer>
 
-    <script src="script.js"></script>
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation"><span class="sr-only" aria-expanded="false">Menu</span></button>
+        <nav>
+            <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+                <li><a class="ff-sans-cond uppercase text-white letter-spacing-1" href="https://lab.moonmoon.tech"><span aria-hidden="true">01</span>Dashboard</a>
+                <li><a class="ff-sans-cond uppercase text-white letter-spacing-1" href="https://pdf.moonmoon.tech"><span aria-hidden="true">02</span>PDF.tools</a>
+                <li><a class="ff-sans-cond uppercase text-white letter-spacing-1" href="https://tech.moonmoon.tech"><span aria-hidden="true">03</span>IT.tools</a>
+            </ul>
+        </nav>
+      </header>
+
+    <div class="background"></div>
+
+    <main id="main" class="grid-container grid-container--home">
+        <div>
+          <h1 class="text-accent fs-500 ff-sans-cond uppercase letter-spacing-1">Welcome to
+          <span class="d-block fs-900 ff-serif text-white">Moon Moon's Hub</span></h1>
+          
+          <p>I am a 26-year-old Norwegian guy that occasionally streams, is a tech head, and hosts various things on my local server.
+            Some of these you can check out at my dashborad.</p>
+        </div>
+    </main>
+
+</div>
+
+
 </body>
+<footer>
+    <div class="social-buttons">
+        <a href="https://twitter.com/M0onmo0nGaming"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.twitch.tv/m0onmo0ngaming"><i class="fa-brands fa-twitch"></i></a>
+        <a href="https://github.com/moonmoon97"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.youtube.com/@M0onMo0n"><i class="fa-brands fa-youtube"></i></a>
+        <a href="mailto:admin@moonmoon.tech"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+</footer>
 </html>
