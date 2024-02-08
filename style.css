@@ -102,16 +102,13 @@ body {
     overflow-x: hidden;
 }
 
-
-
-
 .background {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     min-height: 100vh;
-    background-image: url('background.jpg');
+    background-image: url('Assets/background.jpg');
     background-repeat: no repeat;
     background-position: bottom center;
     background-size: cover;
@@ -296,7 +293,6 @@ body {
 }
 
 
-
 footer {
     position: fixed;
     display: flex;
@@ -338,7 +334,6 @@ footer {
     box-shadow: 0 0 5px rgb(63, 9, 126), 0 0 10px rgb(63, 9, 126);
 }
 
-
 .social-buttons a::before {
     content: '';
     position: absolute;
@@ -362,8 +357,6 @@ footer {
     color: rgb(63, 9, 126);
 
 }
-
-
 
 /* ------------------- */
 /* Utility classes     */
@@ -426,8 +419,6 @@ footer {
     transform: translateY(0);
 }
 
-
-
 .grid-container {
     text-align: center;
     display: grid;
@@ -441,7 +432,7 @@ footer {
 }
 
 img,
-picutre {
+picture {
     max-width: 100%;
     display: block;
 }
