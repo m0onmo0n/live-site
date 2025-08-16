@@ -188,7 +188,7 @@ body {
         right: 1rem;
         top: 2rem;
         background: transparent;
-        background-image: url(icon-hamburger.svg);
+        background-image: url('Assets/icon-hamburger.svg');
         background-repeat: no-repeat;
         background-position: center;
         width: 1.5rem;
@@ -197,7 +197,7 @@ body {
     }
     
     .mobile-nav-toggle[aria-expanded="true"] {
-        background-image: url(icon-close.svg);
+        background-image: url('Assets/icon-close.svg');
     }
     
     .mobile-nav-toggle:focus-visible {
