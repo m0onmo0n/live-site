@@ -412,6 +412,25 @@ footer {
     color: rgb(63, 9, 126);
 }
 
+.social-buttons a img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 22px;
+    height: 22px;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    transition: 0.3s;
+}
+
+.social-buttons a:hover img {
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.social-buttons a img:hover {
+    transform: translate(-50%, -50%) rotate(225deg);
+}
+
 /* ------------------- */
 /* Utility classes     */
 /* ------------------- */
